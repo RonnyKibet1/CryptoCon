@@ -174,10 +174,10 @@ class MainActivity : AppCompatActivity() {
         }else if(toSpinner.getItems<String>().get(toSpinner.selectedIndex).toString() == "USD"){
             Picasso.get().load(R.mipmap.ic_dollar_sign).into(coinImage)
             convertedValueTxtView.setText(coinName)
-        }else if(toSpinner.getItems<String>().get(toSpinner.selectedIndex).toString() == "GBP"){
+        }else if(toSpinner.getItems<String>().get(toSpinner.selectedIndex).toString() == "EUR"){
             Picasso.get().load(R.mipmap.ic_euro_sign).into(coinImage)
             convertedValueTxtView.setText(coinName)
-        }else if(toSpinner.getItems<String>().get(toSpinner.selectedIndex).toString() == "EUR"){
+        }else if(toSpinner.getItems<String>().get(toSpinner.selectedIndex).toString() == "GBP"){
             Picasso.get().load(R.mipmap.ic_pound_sign).into(coinImage)
             convertedValueTxtView.setText(coinName)
         }
